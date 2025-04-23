@@ -1,0 +1,48 @@
+*{
+    font-family: "Darumadrop One", serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tamanho-celular{
+    width: 360px;
+    height: 640px;
+    background-color: white;
+    border: 16px solid black;
+    border-radius: 36px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+button{
+    background-color: rgb(117, 117, 240);
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+
+form{
+    color: rgb(117, 117, 240);
+    padding: 50px 0 50px 50px;
+    font-size: 20px;
+}
+input, select, textarea{
+    font-size: 18px;
+}
+h1{
+    padding: 50px 50px 20px 50px;
+    color: rgb(117, 117, 240);
+}
