@@ -5,7 +5,6 @@
 }
 
 body{
-    padding: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,7 +26,7 @@ body{
 }
 .tela-celular{
     width: 100%;
-    padding: 10px 20px;
+    padding: 30px 20px;
     text-align: center;
 }
 .tela-celular h1{
