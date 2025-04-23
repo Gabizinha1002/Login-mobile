@@ -48,14 +48,33 @@ button{
 }
 
 form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     color: rgb(117, 117, 240);
     padding: 50px 0 50px 50px;
     font-size: 20px;
 }
-input, select, textarea{
-    font-size: 18px;
+input{
+   width: 90%;
+    padding: 14px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
 }
 h1{
     padding: 50px 50px 20px 50px;
     color: rgb(117, 117, 240);
+}
+
+@media (max-width: 480px){
+    .tamanho-celular{
+        border: none;
+        border-radius: 0;
+        width: 100vw;
+        height: 100vh;
+    }
 }
