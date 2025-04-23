@@ -24,15 +24,19 @@ body{
     position: relative;
     overflow: hidden;
 }
-.tela-celular{
-    width: 100%;
-    padding: 30px 20px;
-    text-align: center;
+.tela-celular {
+    width: 100%;
+    max-width: 300px;
+    padding: 30px 20px;
+    text-align: center;
 }
 .tela-celular h1{
-    font-size: 22px;
-    margin-bottom: 25px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    color: rgb(117, 117, 240);
+    text-align: center;
 }
+
 button{
     width: 90%;
     background-color: rgb(117, 117, 240);
@@ -61,10 +65,6 @@ input{
     border-radius: 8px;
     font-size: 16px;
     outline: none;
-}
-h1{
-    padding: 50px 50px 20px 50px;
-    color: rgb(117, 117, 240);
 }
 
 @media (max-width: 480px){
