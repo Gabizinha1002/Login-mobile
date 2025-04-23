@@ -20,6 +20,19 @@ body{
     border-radius: 36px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.tela-celular{
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+}
+.tela-celular h1{
+    font-size: 22px;
+    margin-bottom: 25px;
 }
 button{
     background-color: rgb(117, 117, 240);
